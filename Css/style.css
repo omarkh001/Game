@@ -1,0 +1,58 @@
+body{
+    font-family: "Nerko One", cursive;
+    background-color: #32353A;
+}
+
+/* ==========NAV============================ */
+ .nav-bg {
+    background-color: #3A497B !important;
+    /* position: sticky !important; */
+ }
+
+ .logo h5 {
+    font-size: 25px;
+    font-weight: 400;
+   
+ }
+ .nav-link{
+    transition: 0.5s  all;
+ }
+ .nav-link:hover{
+    
+color: #0d6efd !important;
+ }
+
+ .navbar-nav .nav-link.active{
+    color: #0d6efd!important;
+ }
+/* ==========NAV============================ */
+
+ /* =================card=================== */
+.card{
+    background-color: #32353A;
+    color: white;
+    
+}
+
+
+  /* =================card=================== */
+
+
+
+  /* =====================details=================== */
+ #lightBoxContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+    background-color: #32353A;
+   
+ }
+#BoxContainer{
+    
+    backdrop-filter: blur(4px);
+    color: white;
+}
+   /* =====================details=================== */
